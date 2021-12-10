@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* -----  Begin accueil------ */
+body{
+    font-size: 22px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(/image/windows-KXIWqtmvfxg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    position: relative;
+   
+}
+.row_title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title{
+    font-size: 400%;
+    text-transform: capitalize;
+    color: white;
+}
+.row_title span{
+    font-size: 90%;
+}
+.section_bouton{
+    padding-top: 20px;
+}
+.btn{
+    padding: 10px;
+    background-color: rgb(50, 75, 14);
+    opacity: 0.8;
+    display: inline-block;
+    border-radius:9999px;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+/* --- end accueil --- */
+
+
+/* ----- begin connection ---- */
+
+.body_connection{
+    position: relative;
+ }
+ .form-group{
+     margin-bottom: 10px;
+ }
+ .formulaire {
+    background-color: white;
+    width: 400px;
+    min-height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 6px;
+    padding: 35px 20px;
+}
+.label_form,.input_form,.btn-submit{
+    display: block;
+    width: 100%;
+}
+.label_form{
+    color: #3a3a3a;
+    text-align: left;
+    font-size: 85%;
+    margin-bottom: 5px;
+}
+.title_form{
+    color: none;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.input_form{
+    padding: 10px 5px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+}
+.btn-submit{
+    margin-top: 25px;
+    padding: 10px 5px;
+    color: white;
+    background-color:rgb(50, 75, 14);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+/* ---- begin inscription ---- */
+
+.formulaire_inscription{
+    background-color: white;
+    width: 400px;
+    min-height: 300px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 6px;
+    padding: 35px 20px;
+}
+.circle_photo_container{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid red;
+    padding: 4px;
+    text-align: center;
+   
+    
+}
+.form-group_inscription{
+    margin-top: 10px;
+}
+.circle_photo{
+    display: inline-block;
+    width: 194px;
+    height:194px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-avatar{
+    height: 100%;
+}
+.form-group_inscription{
+    display: flex;
+}
+.label_inscription,.label_normale_row,.input_normale_row{
+  color: #a0a0a0;
+}
+.block1_input{
+    width: 48%;
+}
+.input_inscription{
+    border: none;
+    border-bottom: 1px solid #a0a0a0;
+    outline: none;
+    padding-top: 14px;
+    
+   
+}
+.form_group_normale_row{
+    margin-top: 17px;
+}
+.input_normale_row{
+    padding: 5px 0;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.label_normale_row,.input_normale_row{
+    text-align: left;
+    display: block;
+    width: 100%;
+}
+.input_condition{
+    display: inline-block;
+    width: none;
+    font-size: 55%;
+    color: #a0a0a0;
+}
+.condition1{
+    text-align: right;
+}
+.input_check{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.link_conditions {
+    margin-top: 8px;
+    text-decoration: none;
+    color: #a0a0a0;
+    font-size: 63%;
+}
+.row_condition{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+}
+.row_bouton_inscritpion{
+    margin-top: 32px;
+}
+.btn-inscription{
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: rgb(50, 75, 14);
+    font-size: 17px;
+    opacity: 0.9;
+    color: white;
+    cursor: pointer;
+}
+
+/* ---- media query accueil ---- */
+@media screen and (max-width:882px){
+    .title {
+        font-size: 292%;
+        text-transform: capitalize;
+        color: white;
+    }
+    .row_title span {
+        font-size: 69%;
+    }
+}
+@media screen and (max-width:644px){
+    .title {
+        font-size: 232%;
+        text-transform: capitalize;
+        color: white;
+    }
+    .row_title span {
+        font-size: 55%;
+    }
+}
+@media screen and (max-width:615px){
+    .btn {
+        padding: 10px;
+        background-color: rgb(50, 75, 14);
+        opacity: 0.8;
+        display: inline-block;
+        border-radius: 9999px;
+        outline: none;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:313px){
+    .btn {
+        padding: 5px;
+        background-color: rgb(50, 75, 14);
+        opacity: 0.8;
+        display: inline-block;
+        border-radius: 9999px;
+        outline: none;
+        cursor: pointer;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:456px){
+    .formulaire {
+        background-color: white;
+        width: 298px;
+        min-height: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 6px;
+        padding: 35px 20px;
+    }
+}
+@media screen and (max-width:330px){
+    .formulaire {
+        background-color: white;
+        width: 228px;
+        height: 275px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 6px;
+        padding: 35px 20px;
+    }
+    .title_form {
+        color: none;
+        color: black;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 31px;
+    }
+}
+@media screen and (max-width:242px){
+    .formulaire {
+        background-color: white;
+        width: 186px;
+        height: 275px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 6px;
+        padding: 35px 20px;
+    }
+    .title_form {
+        color: none;
+        color: black;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 31px;
+    }
+}
+@media screen and (max-width:423px){
+    .formulaire_inscription {
+        background-color: white;
+        width: 324px;
+        min-height: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 6px;
+        padding: 35px 20px;
+    }
+    .row_condition {
+        display: block;
+        justify-content: space-between;
+        margin-top: 14px;
+    }
+    .condition1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:340px){
+
+}
