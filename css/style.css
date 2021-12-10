@@ -7,7 +7,7 @@
     /* -----  Begin accueil------ */
 body{
     font-size: 22px;
-    background-image: url(/image/windows-KXIWqtmvfxg-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(/image/windows-KXIWqtmvfxg-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,10 +15,7 @@ body{
     text-align: center;
     color: white;
     position: relative;
-    background-color:  linear-gradient(
-        rgba(0, 0, 0, 0.7), 
-        rgba(0, 0, 0, 0.7)
-      ),;
+   
 }
 .row_title{
     position: absolute;
